@@ -9,7 +9,7 @@ int hieu(int a, int b)
 	 hieu = a - b;
 	 return hieu;
 }
-=======
+
 int tong(int a, int b) {
 	return a + b;
 };
@@ -30,5 +30,6 @@ int main()
 	cin >> b;
 	cout << "hieu cua a va b la: " <<hieu(a,b);
 	system("pause");
+	cout<<"hello word";
 	return 0;
 }
