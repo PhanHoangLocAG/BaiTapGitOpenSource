@@ -63,6 +63,22 @@ float dientichhinhtron(int r)
 	return r*r*3.14;
 };
 
+void KtNguoiDung(){
+	int a=rand(0,100);
+	int b=rand(0,100);
+	cout<<a<<"    "<<b;
+	int tong=a+b;
+	
+	int x;
+	cout<<"nhap tong:";
+	cin>>x;
+	if(x==tong){
+		cout<<"Nguoi dung nhap dung";
+	}else{
+		cout<<"Nguoi dung nhap sai";
+	}
+}
+
 int main()
 {
 	int a, b;
