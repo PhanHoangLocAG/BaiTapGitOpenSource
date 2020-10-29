@@ -16,7 +16,13 @@ int tong(int a, int b) {
 
  
 int tich(int a, int b);
-float thuong(int a, int b);
+float thuong(int a, int b) {
+	if(b!=0){
+		return a / b;
+	} else {
+		return 0;
+	}
+};
 
 
 
