@@ -27,6 +27,7 @@ float thuong(int a, int b) {
 		return 0;
 	}
 };
+
 int tinhChuViHinhChuNhat(int a,int b)
 {
 	int ketqua=0;
@@ -40,6 +41,15 @@ int tinhDienTichHinhChuNhat(int a,int b)
 	ketqua = a+b ;
 	return ketqua;
 }
+
+float chuvihinhvuong(int a){
+	return 4*a;
+};
+float dientichhinhvuong(int a){
+	return a*a;
+};
+
+
 
 
 
