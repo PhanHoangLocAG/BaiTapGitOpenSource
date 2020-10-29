@@ -27,6 +27,19 @@ float thuong(int a, int b) {
 		return 0;
 	}
 };
+int tinhChuViHinhChuNhat(int a,int b)
+{
+	int ketqua=0;
+	ketqua = 2*(a +b);
+	cout <<endl;
+	return ketqua;
+}
+int tinhDienTichHinhChuNhat(int a,int b)
+{
+	int ketqua=0;
+	ketqua = a+b ;
+	return ketqua;
+}
 
 
 
