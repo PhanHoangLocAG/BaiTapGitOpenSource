@@ -28,18 +28,29 @@ float thuong(int a, int b) {
 	}
 };
 
+float chuvihinhtron(int r)
+{
+	return 2*r*3.14;
+};
 
-
+float dientichhinhtron(int r)
+{
+	return r*r*3.14;
+};
 
 int main()
 {
 	int a, b;
+	int r;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT" << endl;
 	cout << "nhap a"<< endl; 
 	cin >> a;
 	cout << "nhap b" << endl;
 	cin >> b;
+	cout << "tong cua a va b la: " <<tong(a,b);
 	cout << "hieu cua a va b la: " <<hieu(a,b);
+	cout << "tich cua a va b la: " <<tich(a,b);
+	cout << "thuong cua a va b la: " <<thuong(a,b);
 	system("pause");
 	cout<<"hello word";
 	return 0;
