@@ -62,6 +62,21 @@ float dientichhinhtron(int r)
 {
 	return r*r*3.14;
 };
+void randomhieu(){
+	int a=rand(0,100);
+	int b=rand(0,100);
+	cout<<a<<"  "<<b;
+	int hieu=a-b;
+	
+	int x;
+	cout<<"Nhap ket qua phep tru: ";
+	cin>>x;
+	if(hieu==x) 
+		cout<<"Nguoi dung nhap dung !";
+	else
+		cout<<"Nguoi dung nhap sai";
+}
+
 
 int main()
 {
