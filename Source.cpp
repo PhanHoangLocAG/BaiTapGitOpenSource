@@ -27,6 +27,13 @@ float thuong(int a, int b) {
 		return 0;
 	}
 };
+float chuvihinhvuong(int a){
+	return 4*a;
+};
+float dientichhinhvuong(int a){
+	return a*a;
+};
+
 
 
 
